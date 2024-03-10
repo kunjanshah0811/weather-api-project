@@ -9,9 +9,10 @@ my_city = City("Paderborn", 51.7189, 8.7575)
 vacation_city = City('Vadodara', 22.310696, 73.192635)
 ```
 ## Requirements
-Python 3.x
-requests library
-How to Run
+- Python 3.x
+- requests library
+- 
+## How to Run
 Install the requests library if you haven't already:
 
 Copy code
