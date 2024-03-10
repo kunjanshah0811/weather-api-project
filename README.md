@@ -15,10 +15,10 @@ vacation_city = City('Vadodara', 22.310696, 73.192635)
 ## How to Run
 1. Install the requests library if you haven't already:
 ```python
-   pip install requests
+  pip install requests
 ```
 
 2. Run the script:
 ```python
-python weather.py
+   python weather.py
 ```
