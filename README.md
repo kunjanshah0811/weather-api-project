@@ -20,5 +20,5 @@ vacation_city = City('Vadodara', 22.310696, 73.192635)
 
 2. Run the script:
 ```python
-python weather_api.py
+python weather.py
 ```
