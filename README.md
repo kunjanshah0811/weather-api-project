@@ -7,8 +7,8 @@ To use this project, simply create an instance of the `City` class with the desi
 ```python
 my_city = City("Paderborn", 51.7189, 8.7575)
 vacation_city = City('Vadodara', 22.310696, 73.192635)
-
-Requirements
+```
+## Requirements
 Python 3.x
 requests library
 How to Run
