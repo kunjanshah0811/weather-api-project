@@ -17,8 +17,9 @@ vacation_city = City('Vadodara', 22.310696, 73.192635)
 ```python
   pip install requests
 ```
+2. Before running the script, you need to set the environment variable OPENWEATHERMAP_API_KEY with your OpenWeatherMap API key.
 
-2. Run the script:
+3. Run the script:
 ```python
    python weather.py
 ```
