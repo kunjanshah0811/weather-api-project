@@ -1,5 +1,7 @@
+import os
 import requests
 
+API_KEY = os.getenv("OPENWEATHERMAP_API_KEY")
 
 class City:
     def __init__(self,name, lat, lon, units="metric"):
@@ -12,7 +14,7 @@ class City:
 
     def get_data(self):
         try:
-            response = requests.get(f"https://api.openweathermap.org/data/2.5/weather?units={self.units}&lat={self.lat}&lon={self.lon}&appid=79007029562c2ab46617d801d8018750")
+            response = requests.get(f"https://api.openweathermap.org/data/2.5/weather?units={self.units}&lat={self.lat}&lon={self.lon}&appid={API_KEY}")
 
 
         except:
