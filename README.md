@@ -11,7 +11,7 @@ vacation_city = City('Vadodara', 22.310696, 73.192635)
 ## Requirements
 - Python 3.x
 - requests library
-- 
+
 ## How to Run
 1. Install the requests library if you haven't already:
 ```python
